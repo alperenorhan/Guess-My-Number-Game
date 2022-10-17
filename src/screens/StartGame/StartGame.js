@@ -4,7 +4,7 @@ import styles from "./StartGame.styles";
 
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 
-export default function StartGame() {
+export default function StartGame({onPickNumber}) {
   const [enteredNumber, setEnteredNumber] = useState("");
 
   const numberInputHandler = (enteredText) => {
@@ -25,7 +25,7 @@ export default function StartGame() {
       );
       return;
     }
-    console.log("Valid number!");
+    onPickNumber(chosenNumber);
   };
   return (
     <View style={styles.inputContainer}>

@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import Colors from "../../constants/Colors";
 
 export default StyleSheet.create({
   buttonOuterContainer: {
@@ -7,7 +8,7 @@ export default StyleSheet.create({
     overflow: "hidden",
   },
   buttonInnerContainer: {
-    backgroundColor: "#72063c",
+    backgroundColor: Colors.primary500,
 
     paddingVertical: 8,
     paddingHorizontal: 16,

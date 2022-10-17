@@ -1,4 +1,5 @@
 const { StyleSheet } = require("react-native");
+import Colors from "../../constants/Colors";
 
 export default StyleSheet.create({
   inputContainer: {
@@ -8,7 +9,7 @@ export default StyleSheet.create({
     borderRadius: 8,
     padding: 16,
     marginTop: 100,
-    backgroundColor: "#3b021f",
+    backgroundColor: Colors.primary800,
     elevation: 4, //Android only
     shadowColor: "#000000",
     shadowOffset: { width: 0, height: 2 },
@@ -19,9 +20,9 @@ export default StyleSheet.create({
     height: 50,
     width: 50,
     fontSize: 34,
-    borderBottomColor: "#ddb52f",
+    borderBottomColor: Colors.accent500,
     borderBottomWidth: 2,
-    color: "#ddb52f",
+    color: Colors.accent500,
     marginVertical: 8,
     fontWeight: "bold",
     textAlign: "center",
