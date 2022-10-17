@@ -2,13 +2,18 @@ const { StyleSheet } = require("react-native");
 import Colors from "../../constants/Colors";
 
 export default StyleSheet.create({
+  rootContainer: {
+    flex: 1,
+    marginTop: 100,
+    alignItems: 'center',
+  },
   inputContainer: {
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 24,
     borderRadius: 8,
     padding: 16,
-    marginTop: 100,
+    marginTop: 36,
     backgroundColor: Colors.primary800,
     elevation: 4, //Android only
     shadowColor: "#000000",
@@ -32,5 +37,9 @@ export default StyleSheet.create({
   },
   buttonContainer: {
     flex: 1,
+  },
+  instructionText: {
+    color: Colors.accent500,
+    fontSize: 24,
   },
 });
