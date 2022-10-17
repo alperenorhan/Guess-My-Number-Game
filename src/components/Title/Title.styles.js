@@ -3,9 +3,9 @@ import Colors from "../../constants/Colors";
 
 export default StyleSheet.create({
   title: {
+    fontFamily: 'open-sans-bold',
     fontSize: 24,
     color: "#ffffff",
-    fontWeight: "bold",
     textAlign: "center",
     borderWidth: 2,
     borderColor: "#ffffff",

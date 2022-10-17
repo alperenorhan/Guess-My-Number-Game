@@ -11,4 +11,11 @@ export default StyleSheet.create({
   buttonContainer: {
     flex: 1,
   },
+  instructionText: {
+    marginBottom: 12,
+  },
+  listContainer: {
+    flex: 1,
+    padding: 16,
+  },
 });
