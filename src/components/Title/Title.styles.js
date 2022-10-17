@@ -4,11 +4,11 @@ import Colors from "../../constants/Colors";
 export default StyleSheet.create({
   title: {
     fontSize: 24,
-    color: Colors.accent500,
+    color: "#ffffff",
     fontWeight: "bold",
     textAlign: "center",
     borderWidth: 2,
-    borderColor: Colors.accent500,
+    borderColor: "#ffffff",
     padding: 12,
   },
 });
